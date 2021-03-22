@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>威士弘科技有限公司</title>
+    <!-- 連結css檔 -->
+    <!--warrper-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <script type="text/javascript" src="js/warrper/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/warrper/jquery.banner.revolution.min.js"></script>
+    <script type="text/javascript" src="js/warrper/banner.js"></script>
+
+    <!--css main-->
+    <!-- <link rel="stylesheet" href="./css/include.css" /> -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!--..........-->
+</head>
+
+<body>
+    <div class="container">
+        <!--header navbar------>
+        <%- include('include/header'); %>
+        <!--header navbar-end-->
+        <!--wrapper------------>
+        <div id="wrapper">
+            <div class="fullwidthbanner-container">
+                <div class="fullwidthbanner">
+                    <ul>
+                        <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300">
+                            <img src="images/slides/1.jpg" alt="" />
+                        </li>
+                        <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300" data-link="#">
+                            <img src="images/slides/2.jpg" alt="" />
+                        </li>
+                        <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300" data-link="#">
+                            <img src="images/slides/3.jpg" alt="" />
+                        </li>
+                        <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300">
+                            <img src="images/slides/4.jpg" alt="" />
+                        </li>
+                        <!-- <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300">
+                            <img src="images/slides/5.jpg" alt="" />
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--wrapper-end-------->
+
+        <div class="content">
+
+            <div class="brandbar">
+                <div class="brandbartext">
+                    <div class="brandbartext-line">
+                        <hr size="2px" align="center" width="100%" color="#FF0000">
+                    </div>
+                    <div class="brandbartext-text">
+                        <center>
+                            <h2>品牌介紹</h2>
+                        </center>
+                    </div>
+                    <div class="brandbartext-line">
+                        <hr size="2px" align="center" width="100%" color="#FF0000">
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <!-- <hr size="2px" width="50%" color="#FF0000"> -->
+                <div class="brandlistbar">
+                    <div class="brandlist" onclick="location.href='/robot'">
+                        <center><img src="images/logo/mitlogo1.png"></center>
+                    </div>
+                    <div class="brandlist" onclick="location.href='/roland'">
+                        <center><img src="images/logo/roland-logo.png"></center>
+                    </div>
+                    <div class="brandlist" onclick="location.href='/promodel'">
+                        <center><img src="images/logo/ProModel-Logo.png"></center>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+            <div class="servicebar">
+                <div class="servicebartext">
+                    <div class="servicebartext-line">
+                        <hr size="2px" align="center" width="100%" color="#FF0000">
+                    </div>
+                    <div class="servicebartext-text">
+                        <center>
+                            <h2>服務項目</h2>
+                        </center>
+                    </div>
+                    <div class="servicebartext-line">
+                        <hr size="2px" align="center" width="100%" color="#FF0000">
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="servicelistbar">
+                    <div class="servicelist" onclick="location.href='/robot'">
+                        <div class="serviceimg">
+                            <center><img src="images/icon1.png" alt="" /></center>
+                        </div>
+                        <div class="servicetext">
+                            <center>
+                                <p>工業用機械手臂</p>
+                                <center>
+                        </div>
+                    </div>
+                    <div class="servicelist" onclick="location.href='/roland'">
+                        <div class="serviceimg">
+                            <center><img src="images/icon2.png" alt="" /></center>
+                        </div>
+                        <div class="servicetext">
+                            <center>
+                                <p>雕刻機、3D 印表機</p>
+                                <center>
+                        </div>
+                    </div>
+                    <div class="servicelist" onclick="location.href='/promodel'">
+                        <div class="serviceimg">
+                            <center><img src="images/icon3.png" alt="" /></center>
+                        </div>
+                        <div class="servicetext">
+                            <center>
+                                <p>生產佈置軟體</p>
+                                <center>
+                        </div>
+                    </div>
+                    <div class="servicelist" onclick="location.href='#'">
+                        <div class="serviceimg">
+                            <center><img src="images/icon4.png" alt="" /></center>
+                        </div>
+                        <div class="servicetext">
+                            <center>
+                                <p>產品維修</p>
+                                <center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <%- include('include/footer'); %>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+
+/* ------------------- */
+/* html, body          */
+/* ------------------- */
+html, body{
+    font-family: '微軟雅黑','微軟正黑體','Noto Sans TC', sans-serif;
+    background: #fff;
+    margin:0;	
+    min-width: 1350px;
+}
+/* h1,h2,h3,h4,h5{
+    font-weight:normal;
+} */
+div.clear{
+    clear: both;
+}
+/* ------------------- */
+/* container           */
+/* ------------------- */
+div.container{
+    margin:0;
+    box-sizing: border-box;	
+}
+
+/* ------------------- */
+/* content             */
+/* ------------------- */
+div.content{
+	margin:0;   
+    background: #F8F8F8;
+    padding:20px 100px;
+    text-align: justify;
+    box-sizing: border-box;	
+}
+div.brands{
+    width:1170px;
+    margin: auto;
+    box-sizing:border-box;
+}
+
+div.brandbartext{
+    height: 20px;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+div.brandbartext-line{
+    height: 20px;
+    width: 35%;
+    float: left;
+    margin: 0 0;
+}
+div.brandbartext-text{
+    height: 20px;
+    width: 30%;
+    float: left;
+}
+div.brandbartext h2{
+    font-size: 18pt;
+    margin-top: -8px;
+    margin-bottom: 0;
+}
+div.brand{
+    width:1170px;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    /* background-color: #f8f8f8; */
+}
+div.brand h2{
+    margin-bottom: 0;
+}
+div.productbrand{
+    float:left;	
+    width: 98%;
+    border-width:4px;
+    border-style:solid;
+    border-color:#d6d6d6;
+    padding:8px;
+}
+div.productbrand img{
+    width: 40%;
+    float:left;	
+}
+div.branddesc{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    box-sizing: border-box;
+    float:left;	
+}
+div.branddesc p{
+    font-size: 12pt;
+    margin: 5px 20px;
+    padding: 0;
+}
+
+
+div.classlisttitle{
+    height: 20px;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.classlisttitle-line{
+    height: 20px;
+    width: 40%;
+    float: left;
+    margin: 0 0;
+}
+div.classlisttitle-text{
+    height: 20px;
+    width: 20%;
+    float: left;
+}
+div.classlisttitle h2{
+    font-size: 18pt;
+    margin-top: -8px;
+    margin-bottom: 0;
+}
+/* 
+div.classlisttitle{
+    box-sizing: border-box;
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+div.classlisttitle h2{
+    margin-top: 40px;
+    margin-bottom:0;
+} */
+div.classlist{
+    width: 100%;
+    float:left;	
+}
+div.classlist img{
+    width: 25%;
+    float:left;	
+}
+div.classdesc{
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float:left;	
+}
+div.classdesc p{
+    font-size: 13pt;
+    margin: 5px 20px;
+    padding: 0;
+}
+div.classdesc li{
+    color: #0076be;
+}
+div.classdesc a{
+    text-decoration: none;
+    color: #0076be;
+}

@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+
+/* ------------------- */
+/* html, body          */
+/* ------------------- */
+html, body{
+    font-family: '微軟雅黑','微軟正黑體','Noto Sans TC', sans-serif;
+    background: #F8F8F8;
+    margin:0;	
+    min-width: 1350px;
+}
+/* h1,h2,h3,h4,h5{
+    font-weight:normal;
+} */
+div.clear{
+    clear: both;
+}
+/* ------------------- */
+/* container           */
+/* ------------------- */
+div.container{
+    margin:0;
+    box-sizing: border-box;	
+}
+
+/* ------------------- */
+/* content             */
+/* ------------------- */
+div.content{
+	margin:0;   
+    background: #F8F8F8;
+    padding:20px 100px;
+    text-align: justify;
+    box-sizing: border-box;	
+}
+div.brands{
+    width:1170px;
+    margin: auto;
+    box-sizing:border-box;
+}
+
+div.brandbartext{
+    height: 20px;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+div.brandbartext-line{
+    height: 20px;
+    width: 45%;
+    float: left;
+    margin: 0 0;
+}
+div.brandbartext-text{
+    height: 20px;
+    width: 10%;
+    float: left;
+}
+div.brandbartext h2{
+    font-size: 18pt;
+    margin-top: -8px;
+    margin-bottom: 0;
+}
+div.productbrand{
+    float:left;	
+    width: 98%;
+    border-width:4px;
+    border-style:solid;
+    border-color:#d6d6d6;
+    padding:8px;
+}
+div.productbrand img{
+    height:150px;
+    float:left;	
+    background: #fff;
+}
+div.branddesc{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float:left;	
+    width: 75%;
+}
+div.branddesc h3{
+    font-size: 18pt;
+    margin: 8px 20px;
+    padding: 0;
+}
+div.branddesc p{
+    font-size: 12pt;
+    margin: 5px 20px;
+    padding: 0;
+}
+
+
+div.classlisttitle{
+    height: 20px;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+div.classlisttitle-line{
+    height: 20px;
+    /* width: 35%; */
+    float: left;
+    margin: 0 0;
+}
+div.classlisttitle-text{
+    height: 20px;
+    /* width: 30%; */
+    float: left;
+}
+div.classlisttitle h2{
+    font-size: 18pt;
+    margin-top: -8px;
+    margin-bottom: 0;
+}
+div.classlist{
+    float:left;	
+    margin: 10px 0;
+    width: 100%;
+}
+div.class{
+    box-sizing: border-box;
+    width: 32%;
+    height: 310px;
+    float:left;	
+    border-width:2.5px;
+    border-style:solid;
+    border-color:#d6d6d6;
+    padding:5px;
+    margin-bottom: 80px;
+} 
+div.class:not(:last-child){
+    box-sizing: border-box;
+    width: 32%;
+    margin-right: 2%;
+    float:left;	
+}
+div.class img{
+    width: 100%;
+    float:left;	
+}
+div.classdesc{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float:left;	
+}
+div.classdesc h4{
+    font-size: 15pt;
+    margin: 0 10px;
+    padding: 0;
+    color: #42b3e5;
+}
+div.classdesc p{
+    font-size: 12pt;
+    margin: 0 10px;
+    padding: 0;
+}
+div.classdesc a{
+    text-decoration: none;
+    color: #42b3e5;
+}
