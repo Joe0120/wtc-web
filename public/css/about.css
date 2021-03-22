@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+
+/* ------------------- */
+/* html, body          */
+/* ------------------- */
+html, body{
+    font-family: '微軟正黑體','Noto Sans TC', sans-serif;
+    background: #fff;
+    margin:0;	
+    min-width: 1350px;
+}
+div.clear{
+    clear: both;
+}
+/* ------------------- */
+/* container           */
+/* ------------------- */
+div.container{
+    margin:0;
+    box-sizing: border-box;	
+}
+/* ------------------- */
+/* content             */
+/* ------------------- */
+div.content{
+	margin:0;   
+    background: #F8F8F8;
+    padding:20px 0;
+    text-align: justify;
+    box-sizing: border-box;	
+    height: 1300px;
+}
+div.brands{
+    width:1170px;
+    margin: auto;
+    box-sizing:border-box;
+    height: 1300px;
+    /* background: #CCC; */
+}
+div.logo{
+    width:100%;
+    height: 83px;
+    box-sizing:border-box;
+}
+div.logo-img{
+    width: 10%;
+    float: left;
+}
+div.logo-img img{
+    margin: 8px 0 0 0;
+    height: 70px;
+    float: left;
+}
+div.logo-text{
+    width: 90%;
+    float: left;
+}
+div.logo-text h2{
+    font-size: 35pt;
+    font-weight: 500;
+    margin: 0;
+}
+div.logo-text p{
+    font-size: 12pt;
+    margin: 0 0 0 5px;
+}
+div.product{
+    margin: 60px 0 0 0;
+    width:100%;
+    /* height: 83px; */
+    box-sizing:border-box;
+}
+div.product p{
+    font-size: 15pt;
+    margin: 0;
+}
+div.info-list{
+    margin: 40px 0 0 0;
+    width:100%;
+    box-sizing:border-box;
+}
+div.info{
+    float: right;
+    width:70%;
+    box-sizing:border-box;
+}
+div.info p a{
+    color: #000;
+    text-decoration: none;
+}
+div.title{
+    float: left;
+    width:20%;
+}
+div.title p{
+    font-size: 18pt;
+    margin: 15px 0;
+}
+div.slash{
+    float: left;
+    width: 4%;
+}
+div.slash p{
+    font-size: 18pt;
+    margin: 15px 0;
+}
+div.information{
+    float: left;
+    width:76%;
+}
+div.information p{
+    font-size: 18pt;
+    margin: 15px 0;
+}
+
+
